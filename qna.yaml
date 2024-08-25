@@ -152,5 +152,5 @@ document:
   repo: https://github.com/stewart-jeacocke/instruct-lab/
   commit: beed8a90cf94d066d3b9819e9058303231867d07
   patterns:
-      - WTO_Agreement_on_Electronic_Commerce.md
-      
+    - WTO_Agreement_on_Electronic_Commerce.md
+
