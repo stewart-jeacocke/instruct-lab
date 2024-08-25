@@ -158,25 +158,42 @@ seed_examples:
       presented to a Party for importation, exportation, or transit of goods through its territory,
       which may include documents such as invoices, bills of lading, packing lists, or money transfers.
 
-      8.2 With a view to creating a paperless border environment for trade in goods, the Parties recognize the importance of eliminating paper forms and documents required for importation, exportation, or transit of goods. To this end, each Party is encouraged to eliminate paper forms and documents, as appropriate, and transition towards using forms and documents in data-based formats.
+      8.2 With a view to creating a paperless border environment for trade in goods, the Parties recognize
+      the importance of eliminating paper forms and documents required for importation, exportation,
+      or transit of goods. To this end, each Party is encouraged to eliminate paper forms and documents,
+      as appropriate, and transition towards using forms and documents in data-based formats.
 
-      8.3 Each Party shall make any form issued or controlled by its customs authority for importation, exportation, or transit of goods through its territory available to the public in electronic format.
+      8.3 Each Party shall make any form issued or controlled by its customs authority for importation,
+      exportation, or transit of goods through its territory available to the public in electronic format.
 
-      8.4 Each Party shall endeavour to make any form issued or controlled by any government agency other than its customs authority for importation, exportation, or transit of goods through its territory available to the public in electronic format.
+      8.4 Each Party shall endeavour to make any form issued or controlled by any government agency other
+      than its customs authority for importation, exportation, or transit of goods through its territory
+      available to the public in electronic format.
 
-      8.5 No Party shall be required to apply paragraphs 3 or 4 if there is an international legal requirement to the contrary.
+      8.5 No Party shall be required to apply paragraphs 3 or 4 if there is an
+      international legal requirement to the contrary.
 
-      8.6 Each Party shall endeavour to make instructions for the submission in electronic format of the forms referred to in paragraphs 3 and 4 available through the Internet.
+      8.6 Each Party shall endeavour to make instructions for the submission in electronic format of the forms
+      referred to in paragraphs 3 and 4 available through the Internet.
 
-      8.7 Each Party shall accept any form issued or controlled by its customs authority and, as appropriate, supporting documentation, required by its customs authority for importation, exportation, or transit of goods through its territory submitted in electronic format as the legal equivalent of the paper version of those documents.
+      8.7 Each Party shall accept any form issued or controlled by its customs authority and, as appropriate,
+      supporting documentation, required by its customs authority for importation, exportation, or transit of
+      goods through its territory submitted in electronic format as the legal equivalent of
+      the paper version of those documents.
 
-      8.8 Each Party shall endeavour to accept any form issued or controlled by any government agency other than its customs authority and, as appropriate, supporting documentation, required by any government agency other than its customs authority for importation, exportation, or transit of goods through its territory submitted in electronic format as the legal equivalent of the paper version of those documents.
+      8.8 Each Party shall endeavour to accept any form issued or controlled by any government agency other
+      than its customs authority and, as appropriate, supporting documentation, required by any 
+       other than its customs authority for importation, exportation, or transit of goods through its territory
+       submitted in electronic format as the legal equivalent of the paper version of those documents.
 
       8.9 No Party shall be required to apply paragraphs 7 or 8 if:
       (a) there is a domestic or an international legal requirement to the contrary; or
-      (b) doing so would reduce the effectiveness of the customs or other trade procedures required for importation, exportation, or transit of goods through its territory.
+      (b) doing so would reduce the effectiveness of the customs or other trade procedures required for importation,
+      exportation, or transit of goods through its territory.
 
-      8.10 Each Party shall endeavour to notify a list of any paper forms required under subparagraph 9(a) to the Committee within two years after the date of entry into force of this Agreement. Each Party shall endeavour to update such list, as appropriate.
+      8.10 Each Party shall endeavour to notify a list of any paper forms required under subparagraph 9(a)
+      to the Committee within two years after the date of entry into force of this Agreement. Each Party shall
+      endeavour to update such list, as appropriate.
     questions_and_answers:
       - question: |
           How is customs authority defined for the purposes of Article 8 of the Agreement?
@@ -200,21 +217,30 @@ seed_examples:
   - context: |
       ### Article 6: Electronic Contracts
 
-      Except in circumstances otherwise provided for under its laws or regulations, a Party shall not deny the legal effect, legal validity, or enforceability of an electronic contract[^4] solely on the basis that the contract has been made by electronic means.
+      Except in circumstances otherwise provided for under its laws or regulations, a Party shall not deny
+      the legal effect, legal validity, or enforceability of an electronic contract[^4]
+      solely on the basis that the contract has been made by electronic means.
 
-      [^4]: For greater certainty, an electronic contract includes a contract made by interaction with an automated message system.
+      [^4]: For greater certainty, an electronic contract includes a
+      contract made by interaction with an automated message system.
 
       ### Article 7: Electronic Invoicing
 
       7.1 For the purposes of this Article:
-      (a) "electronic invoicing" means the processing and exchange of an invoice between a seller and a buyer using a structured digital format; and
+      (a) "electronic invoicing" means the processing and exchange of an invoice between a seller and a buyer
+      using a structured digital format; and
       (b) "electronic invoicing framework" means a system that facilitates electronic invoicing.
 
-      7.2 Except in circumstances otherwise provided for under its laws or regulations, a Party shall not deny the legal effect or admissibility as evidence in legal proceedings of an invoice solely on the basis that the invoice is in electronic form.
+      7.2 Except in circumstances otherwise provided for under its laws or regulations, a Party shall not deny
+      the legal effect or admissibility as evidence in legal proceedings of an invoice solely on the basis
+      that the invoice is in electronic form.
 
-      7.3 The Parties recognize that electronic invoicing frameworks can help improve the cost effectiveness, efficiency, accuracy, and reliability of electronic commerce transactions.
+      7.3 The Parties recognize that electronic invoicing frameworks can help improve the cost effectiveness,
+      efficiency, accuracy, and reliability of electronic commerce transactions.
 
-      7.4 To the extent that a Party develops a measure related to electronic invoicing frameworks, it shall endeavour to design the measure to support cross-border interoperability, including by taking into account relevant international standards, guidelines, or recommendations, where they exist.
+      7.4 To the extent that a Party develops a measure related to electronic invoicing frameworks, it shall
+      endeavour to design the measure to support cross-border interoperability, including by taking into
+      account relevant international standards, guidelines, or recommendations, where they exist.
 
       7.5 Each Party shall endeavour, as appropriate, to share best practices relating to electronic invoicing.
     questions_and_answers:
