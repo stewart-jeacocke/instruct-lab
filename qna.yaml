@@ -17,22 +17,22 @@ seed_examples:
       To this end, each Party shall endeavour to adopt or maintain a legal framework that takes into account
       the _UNCITRAL Model Law on Electronic Transferable Records 2017_.
     questions_and_answers:
-    - question: |
-        What UNCITRAL Model Laws relating to electronic transactions are referenced by the Agreement?
-      answer: |
-        The Agreement references two UNCITRAL model laws that related to electronic transactions:
-        * UNCITRAL Model Law on Electronic Commerce 1996; and
-        * UNCITRAL Model Law on Electronic Transferable Records 2017.
-    - question: |
-        What measures does the Agreement establish for electronic transferable records?
-      answer: |
-        The Agreement requires that each Party shall endeavour to adopt or maintain a legal framework that takes
-        into account the UNCITRAL Model Law on Electronic Transferable Records 2017.
-    - question: |
-        What measures does the Agreement establish for electronic transactions?
-      answer: |
-        The Agreement requires that each Party shall endeavour to adopt or maintain a legal framework that is
-        consistent with the principles of the UNCITRAL Model Law on Electronic Commerce 1996.
+      - question: |
+          What UNCITRAL Model Laws relating to electronic transactions are referenced by the Agreement?
+        answer: |
+          The Agreement references two UNCITRAL model laws that related to electronic transactions:
+          * UNCITRAL Model Law on Electronic Commerce 1996; and
+          * UNCITRAL Model Law on Electronic Transferable Records 2017.
+      - question: |
+          What measures does the Agreement establish for electronic transferable records?
+        answer: |
+          The Agreement requires that each Party shall endeavour to adopt or maintain a legal framework that takes
+          into account the UNCITRAL Model Law on Electronic Transferable Records 2017.
+      - question: |
+          What measures does the Agreement establish for electronic transactions?
+        answer: |
+          The Agreement requires that each Party shall endeavour to adopt or maintain a legal framework that is
+          consistent with the principles of the UNCITRAL Model Law on Electronic Commerce 1996.
   - context: |
       ## Article 5: Electronic Authentication and Electronic Signatures[^3]
 
@@ -75,7 +75,8 @@ seed_examples:
           What measures does the Agreement establish for electronic authentication?
         answer: |
           The Agreement requires that Parties shall encourage the use of interoperable electronic authentication.
-      - question:  What measures does the Agreement establish for mutual recognition of electronic signatures?
+      - question: |
+          What measures does the Agreement establish for mutual recognition of electronic signatures?
         answer: |
           The Agreement requires that Parties may work together, on a voluntary basis, to encourage the
           mutual recognition of electronic signatures.
@@ -106,7 +107,7 @@ seed_examples:
       \(c\) is encouraged to implement a reference number or other identity verification tool to uniquely identify
       data relating to an individual transaction.
 
-      9.4 Where a single window is not available or not integrated with a Party's customs authorities, 
+      9.4 Where a single window is not available or not integrated with a Party's customs authorities,
       paragraph 3 shall apply, as appropriate, to customs management systems used for processing data
       related to importation, exportation, or transit of goods through its territory.
 
@@ -114,7 +115,8 @@ seed_examples:
       (a) share their respective experiences in establishing or maintaining a single window; and
       (b) work towards a harmonization, to the extent practicable, of data elements and customs processes.
 
-      9.6 Taking into account the interests of MSMEs, the Parties shall endeavour to allow traders and other stakeholders
+      9.6 Taking into account the interests of MSMEs,
+      the Parties shall endeavour to allow traders and other stakeholders
       to use service providers to exchange data on their behalf with a single window or,
       where a single window is not available, with a customs management system.[^5]
 
@@ -147,7 +149,8 @@ seed_examples:
 document_outline: |
   Information about the World Trade Organization's Agreement on Electronic Commerce
 document:
-    repo: https://github.com/stewart-jeacocke/instruct-lab/
-    commit: beed8a90cf94d066d3b9819e9058303231867d07
-    patterns:
+  repo: https://github.com/stewart-jeacocke/instruct-lab/
+  commit: beed8a90cf94d066d3b9819e9058303231867d07
+  patterns:
       - WTO_Agreement_on_Electronic_Commerce.md
+      
