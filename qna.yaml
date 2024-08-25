@@ -6,15 +6,15 @@ seed_examples:
       ### Article 4: Electronic Transactions Framework
 
       4.1 Each Party shall endeavour to adopt or maintain a legal framework governing electronic transactions
-       that is consistent with the principles of the _UNCITRAL Model Law on Electronic Commerce 1996_.
+      that is consistent with the principles of the _UNCITRAL Model Law on Electronic Commerce 1996_.
 
       4.2 Each Party shall endeavour to:
       (a) avoid any undue regulatory burden on electronic transactions; and
-      (b) facilitate input by interested persons in the development of its legal framework for electronic 
+      (b) facilitate input by interested persons in the development of its legal framework for electronic
       transactions.
 
-      4.3 The Parties recognize the importance of facilitating the use of electronic transferable records. 
-      To this end, each Party shall endeavour to adopt or maintain a legal framework that takes into account 
+      4.3 The Parties recognize the importance of facilitating the use of electronic transferable records.
+      To this end, each Party shall endeavour to adopt or maintain a legal framework that takes into account
       the _UNCITRAL Model Law on Electronic Transferable Records 2017_.
     questions_and_answers:
     - question: |
@@ -26,49 +26,49 @@ seed_examples:
     - question: |
         What measures does the Agreement establish for electronic transferable records?
       answer: |
-        The Agreement requires that each Party shall endeavour to adopt or maintain a legal framework that takes 
+        The Agreement requires that each Party shall endeavour to adopt or maintain a legal framework that takes
         into account the UNCITRAL Model Law on Electronic Transferable Records 2017.
     - question: |
         What measures does the Agreement establish for electronic transactions?
       answer: |
-        The Agreement requires that each Party shall endeavour to adopt or maintain a legal framework that is 
+        The Agreement requires that each Party shall endeavour to adopt or maintain a legal framework that is
         consistent with the principles of the UNCITRAL Model Law on Electronic Commerce 1996.
   - context: |
       ## Article 5: Electronic Authentication and Electronic Signatures[^3]
 
       5.1 For the purposes of this Article:
-      (a) "electronic authentication" means the process or act of verifying the identity of a party to an electronic 
+      (a) "electronic authentication" means the process or act of verifying the identity of a party to an electronic
       communication or transaction, or ensuring the integrity of an electronic communication; and
-      (b) "electronic signature" means data in electronic form that is in, affixed to, or logically associated with 
-      an electronic data message and that may be used to identify the signatory in relation to the data message and 
+      (b) "electronic signature" means data in electronic form that is in, affixed to, or logically associated with
+      an electronic data message and that may be used to identify the signatory in relation to the data message and
       indicate the signatory's approval of the information contained in the data message.
 
-      5.2 Except in circumstances otherwise provided for under its laws or regulations, a Party shall not deny the 
-      legal effect, legal validity, or admissibility as evidence in legal proceedings of an electronic signature 
+      5.2 Except in circumstances otherwise provided for under its laws or regulations, a Party shall not deny the
+      legal effect, legal validity, or admissibility as evidence in legal proceedings of an electronic signature
       solely on the basis that the signature is in electronic form.
 
       5.3 No Party shall adopt or maintain measures that would:
-      (a) prohibit parties to an electronic transaction from mutually determining the appropriate electronic 
+      (a) prohibit parties to an electronic transaction from mutually determining the appropriate electronic
       authentication method or electronic signature for that transaction; or
-      (b) prevent parties to an electronic transaction from having the opportunity to establish before judicial 
-      or administrative authorities that their transaction complies with any legal requirements with respect to 
+      (b) prevent parties to an electronic transaction from having the opportunity to establish before judicial
+      or administrative authorities that their transaction complies with any legal requirements with respect to
       electronic authentication or electronic signatures.
 
-      5.4 Notwithstanding paragraph 3, a Party may require that, for a particular category of transactions, 
-      the method of authentication or electronic signature meets certain performance standards or is certified by an 
+      5.4 Notwithstanding paragraph 3, a Party may require that, for a particular category of transactions,
+      the method of authentication or electronic signature meets certain performance standards or is certified by an
       accredited authority in accordance with its laws or regulations.
 
-      5.5 To the extent provided for under its laws or regulations, each Party shall apply paragraphs 2 to 4 
+      5.5 To the extent provided for under its laws or regulations, each Party shall apply paragraphs 2 to 4
       to electronic seals, electronic time stamps, and electronic registered delivery services.
 
       5.6 Parties shall encourage the use of interoperable electronic authentication.
 
-      5.7 Parties may work together, on a voluntary basis, to encourage the mutual recognition 
+      5.7 Parties may work together, on a voluntary basis, to encourage the mutual recognition
       of electronic signatures.
 
-      [^3]: For greater certainty, nothing in this Article prevents a Party from according greater legal effect, 
-      to an electronic signature that satisfies certain requirements, 
-      such as indicating that the electronic data message 
+      [^3]: For greater certainty, nothing in this Article prevents a Party from according greater legal effect,
+      to an electronic signature that satisfies certain requirements,
+      such as indicating that the electronic data message
       has not been altered or verifying the identity of the signatory.
     questions_and_answers:
       - question: |
@@ -77,72 +77,72 @@ seed_examples:
           The Agreement requires that Parties shall encourage the use of interoperable electronic authentication.
       - question:  What measures does the Agreement establish for mutual recognition of electronic signatures?
         answer: |
-          The Agreement requires that Parties may work together, on a voluntary basis, to encourage the 
+          The Agreement requires that Parties may work together, on a voluntary basis, to encourage the
           mutual recognition of electronic signatures.
       - question: |
           How is electronic authentication defined for the purposes of Article 5 of the Agreement?
         answer: |
-          For the purposes of Article 5 of the Agreement electronic authentication means the process or act of 
-          verifying the identity of a party to an electronic communication or transaction, 
+          For the purposes of Article 5 of the Agreement electronic authentication means the process or act of
+          verifying the identity of a party to an electronic communication or transaction,
           or ensuring the integrity of an electronic communication
   - context: |
       ### Article 9: Single Windows Data Exchange and System Interoperability
 
-      9.1 In establishing or maintaining its single window under paragraph 4.1 of Article 10 of the 
-      Agreement on Trade Facilitation, set out in Annex 1A of the WTO Agreement, each Party shall endeavour to enable 
-      through a single entry point the electronic submission of the documentation or data that Party requires for 
-      importation, exportation, or transit of goods through its territory 
+      9.1 In establishing or maintaining its single window under paragraph 4.1 of Article 10 of the
+      Agreement on Trade Facilitation, set out in Annex 1A of the WTO Agreement, each Party shall endeavour to enable
+      through a single entry point the electronic submission of the documentation or data that Party requires for
+      importation, exportation, or transit of goods through its territory
       for all its participating authorities or agencies.
 
-      9.2 A Party's single window should allow, where possible, the electronic submission of documentation 
-      or data in advance in order to begin processing information prior to the arrival of goods with a view 
+      9.2 A Party's single window should allow, where possible, the electronic submission of documentation
+      or data in advance in order to begin processing information prior to the arrival of goods with a view
       to expediting the release of goods upon arrival in its territory.
 
       9.3 In establishing or maintaining its single window, each Party:
-      (a) shall endeavour to incorporate, as appropriate, the World Customs Organization Data Model 
+      (a) shall endeavour to incorporate, as appropriate, the World Customs Organization Data Model
       or other international standards for data elements;
-      (b) shall ensure the protection and confidentiality of the data exchanged with other single windows, 
+      (b) shall ensure the protection and confidentiality of the data exchanged with other single windows,
       whenever this exchange is permitted; and
       \(c\) is encouraged to implement a reference number or other identity verification tool to uniquely identify
-       data relating to an individual transaction.
+      data relating to an individual transaction.
 
       9.4 Where a single window is not available or not integrated with a Party's customs authorities, 
-      paragraph 3 shall apply, as appropriate, to customs management systems used for processing data 
+      paragraph 3 shall apply, as appropriate, to customs management systems used for processing data
       related to importation, exportation, or transit of goods through its territory.
 
       9.5 Further to paragraphs 3 and 4, the Parties shall endeavour to:
       (a) share their respective experiences in establishing or maintaining a single window; and
       (b) work towards a harmonization, to the extent practicable, of data elements and customs processes.
 
-      9.6 Taking into account the interests of MSMEs, the Parties shall endeavour to allow traders and other stakeholders 
-      to use service providers to exchange data on their behalf with a single window or, 
+      9.6 Taking into account the interests of MSMEs, the Parties shall endeavour to allow traders and other stakeholders
+      to use service providers to exchange data on their behalf with a single window or,
       where a single window is not available, with a customs management system.[^5]
 
-      [^5]: For greater certainty, this paragraph does not preclude a Party from requiring service providers 
+      [^5]: For greater certainty, this paragraph does not preclude a Party from requiring service providers
       to meet certain procedural requirements in order to exchange data with the single window.
     questions_and_answers:
       - question: What measures does the Agreement establish for single window?
         answer: |
           The Agreement requires that in establishing or maintaining its single window, each Party:
-          * shall endeavour to enable through a single entry point the electronic submission of 
-          the documentation or data that Party requires for importation, exportation, or transit of goods 
+          * shall endeavour to enable through a single entry point the electronic submission of
+          the documentation or data that Party requires for importation, exportation, or transit of goods
           through its territory for all its participating authorities or agencies;
-          * shall endeavour to incorporate, as appropriate, the World Customs Organization Data Model or 
+          * shall endeavour to incorporate, as appropriate, the World Customs Organization Data Model or
           other international standards for data elements;
-          * shall ensure the protection and confidentiality of the data exchanged with other single windows, 
+          * shall ensure the protection and confidentiality of the data exchanged with other single windows,
           whenever this exchange is permitted; and
-          * is encouraged to implement a reference number or other identity verification tool to 
+          * is encouraged to implement a reference number or other identity verification tool to
           uniquely identify data relating to an individual transaction.
       - question: |
           How does Article 9 of the Agreement promote data harmonization?
         answer: |
-          Article 9 of The Agreement requires that Parties endeavour to work towards a harmonization, 
+          Article 9 of The Agreement requires that Parties endeavour to work towards a harmonization,
           to the extent practicable, of data elements.
       - question: |
-          How does Article 9 of the Agreement promote sharing of experiences 
+          How does Article 9 of the Agreement promote sharing of experiences
           in establishing or maintaining a single window?
         answer: |
-          Article 9 of The Agreement requires that Parties endeavour to share their respective 
+          Article 9 of The Agreement requires that Parties endeavour to share their respective
           experiences in establishing or maintaining a single window.
 document_outline: |
   Information about the World Trade Organization's Agreement on Electronic Commerce
