@@ -101,7 +101,7 @@ seed_examples:
 document_outline: |
   Information about the World Trade Organization's Agreement on Electronic Commerce
 document:
-    repo: https://github.com/juliadenham/Summit_knowledge
-    commit: 0a1f2672b9b90582e6115333e3ed62fd628f1c0f
+    repo: https://github.com/stewart-jeacocke/instruct-lab/
+    commit: beed8a90cf94d066d3b9819e9058303231867d07
     patterns:
-      - phoenix_constellation.md
+      - WTO_Agreement_on_Electronic_Commerce.md
