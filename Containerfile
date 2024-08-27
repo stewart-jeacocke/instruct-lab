@@ -23,6 +23,10 @@ RUN python3.11 -m pip install git+https://github.com/instructlab/instructlab.git
 RUN ilab config init --non-interactive
 RUN ilab model download
 
+# get hold of Stewart's example knowledge file
+RUN mkdir taxonomy/knowledge/world_trade_organization
+RUN https://raw.githubusercontent.com/stewart-jeacocke/instruct-lab/main/qna.yaml -o taxonomy/knowledge/world_trade_organization/qna.yaml
+
 CMD ["/bin/bash"]
 
 LABEL com.redhat.component="instructlab"
