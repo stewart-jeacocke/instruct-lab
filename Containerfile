@@ -15,8 +15,8 @@ RUN ilab config init --non-interactive
 RUN ilab model download
 
 # get hold of Stewart's example knowledge file
-RUN mkdir taxonomy/knowledge/world_trade_organization
-RUN curl -sSL https://raw.githubusercontent.com/stewart-jeacocke/instruct-lab/main/qna.yaml -o taxonomy/knowledge/world_trade_organization/qna.yaml
+RUN mkdir ~/.local/share/instructlab/taxonomy
+RUN curl -sSL https://raw.githubusercontent.com/stewart-jeacocke/instruct-lab/main/qna.yaml -o ~/.local/share/instructlab/taxonomy/knowledge/world_trade_organization/qna.yaml
 
 CMD ["/bin/bash"]
 
