@@ -15,7 +15,7 @@ RUN python3.11 -m ensurepip
 #    && export XLA_TARGET=cuda120 \
 #    && export XLA_FLAGS=--xla_gpu_cuda_data_dir=/usr/local/cuda
 
-ARG GIT_TAG=stable
+ARG GIT_TAG=v0.18.3
 RUN if [[ "$(uname -m)" != "aarch64" ]]; then export CFLAGS="-mno-avx"; fi && \
     CMAKE_ARGS="-DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS" python3.11 -m pip install -r https://raw.githubusercontent.com/instructlab/instructlab/${GIT_TAG}/requirements.txt --force-reinstall --no-cache-dir llama-cpp-python
 RUN python3.11 -m pip install git+https://github.com/instructlab/instructlab.git@${GIT_TAG}
