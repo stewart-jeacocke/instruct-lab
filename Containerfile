@@ -5,15 +5,6 @@ FROM fedora:40
 RUN dnf install -y python3.11 python3.11-devel git python3-pip make automake gcc gcc-c++
 WORKDIR /instructlab
 RUN python3.11 -m ensurepip
-#RUN rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
-#RUN dnf config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/rhel9/x86_64/cuda-rhel9.repo && dnf repolist && dnf config-manager --set-enabled cuda-rhel9-x86_64 && dnf config-manager --set-enabled cuda && dnf config-manager --set-enabled epel && dnf update -y
-#RUN dnf install -y libcudnn8 nvidia-driver-NVML nvidia-driver-cuda-libs
-#RUN python3.11 -m pip install --force-reinstall nvidia-cuda-nvcc-cu12
-#RUN export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64" \
-#    && export CUDA_HOME=/usr/local/cuda \
-#    && export PATH="/usr/local/cuda/bin:$PATH" \
-#    && export XLA_TARGET=cuda120 \
-#    && export XLA_FLAGS=--xla_gpu_cuda_data_dir=/usr/local/cuda
 
 ARG GIT_TAG=v0.18.3
 RUN if [[ "$(uname -m)" != "aarch64" ]]; then export CFLAGS="-mno-avx"; fi && \
@@ -25,7 +16,7 @@ RUN ilab model download
 
 # get hold of Stewart's example knowledge file
 RUN mkdir taxonomy/knowledge/world_trade_organization
-RUN https://raw.githubusercontent.com/stewart-jeacocke/instruct-lab/main/qna.yaml -o taxonomy/knowledge/world_trade_organization/qna.yaml
+RUN curl -sSL https://raw.githubusercontent.com/stewart-jeacocke/instruct-lab/main/qna.yaml -o taxonomy/knowledge/world_trade_organization/qna.yaml
 
 CMD ["/bin/bash"]
 
