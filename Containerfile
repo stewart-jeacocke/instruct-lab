@@ -6,9 +6,8 @@ RUN dnf install -y python3.11 python3.11-devel git python3-pip make automake gcc
 WORKDIR /instructlab
 RUN python3.11 -m ensurepip
 
-ARG GIT_TAG=v0.18.3
-RUN if [[ "$(uname -m)" != "aarch64" ]]; then export CFLAGS="-mno-avx"; fi && \
-    CMAKE_ARGS="-DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS" python3.11 -m pip install -r https://raw.githubusercontent.com/instructlab/instructlab/${GIT_TAG}/requirements.txt --force-reinstall --no-cache-dir llama-cpp-python
+ARG GIT_TAG=v0.18.4
+RUN CMAKE_ARGS="-DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS" python3.11 -m pip install -r https://raw.githubusercontent.com/instructlab/instructlab/${GIT_TAG}/requirements.txt --force-reinstall --no-cache-dir llama-cpp-python
 RUN python3.11 -m pip install git+https://github.com/instructlab/instructlab.git@${GIT_TAG}
 
 RUN ilab config init --non-interactive
