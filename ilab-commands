@@ -1,0 +1,1 @@
+ ilab data generate --pipeline simple --batch-size=0 --enable-serving-output   
