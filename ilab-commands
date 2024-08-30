@@ -1,1 +1,2 @@
- ilab data generate --pipeline simple --batch-size=0 --enable-serving-output   
+ilab model serve &>~/log-model-serve
+ilab data generate --pipeline simple --batch-size=0 --enable-serving-output &>~/log-data-generate  
