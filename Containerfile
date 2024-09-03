@@ -1,10 +1,11 @@
 # SPDX-License-Identifier: Apache-2.0
 
-#FROM nvcr.io/nvidia/cuda:12.4.1-devel-ubi9
 FROM fedora:40
 RUN dnf install -y python3.11 python3.11-devel git python3-pip make automake gcc gcc-c++
 WORKDIR /instructlab
 RUN python3.11 -m ensurepip
+RUN python3.11 -m venv --upgrade-deps venv
+RUN source venv/bin/activate
 
 ARG GIT_TAG=v0.18.4
 RUN CMAKE_ARGS="-DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS" python3.11 -m pip install -r https://raw.githubusercontent.com/instructlab/instructlab/${GIT_TAG}/requirements.txt --force-reinstall --no-cache-dir llama-cpp-python
