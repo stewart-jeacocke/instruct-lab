@@ -7,4 +7,4 @@ podman build -t instructlab .
 podman run -it --rm -v ilab-volume:/root/.local/share/instructlab instructlab
 source venv/bin/activate
 ilab model serve &>~/log-model-serve &
-ilab data generate --pipeline simple --batch-size=0 --enable-serving-output &>~/log-data-generate  &
+ilab data generate --pipeline simple --batch-size=0 --num-cpus=16 --enable-serving-output &>~/log-data-generate  &
